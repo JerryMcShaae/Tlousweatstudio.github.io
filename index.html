@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tlou Sweat Studio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header>
+  <div class="logo">
+ <div class="logo">
+  <a href="index.html" style="color: red; text-decoration: none;">Tlou Sweat Studio</a>
+</div>
+</div>
+   <!-- Inside the nav.menu -->
+<nav class="menu">
+  <a href="index.html"><i class="fas fa-home"></i> Home</a>
+      <a href="gallery.html"><i class="fas fa-images"></i> Gallery</a>
+      <a href="products.html"><i class="fas fa-cogs"></i> Products</a>
+      <a href="marketplace.html"><i class="fas fa-store"></i> Marketplace</a>
+      <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+      <a href="contact.html"><i class="fas fa-phone-alt"></i> Contact</a>
+</nav>
+
+    <div class="hamburger" onclick="document.querySelector('nav.menu').classList.toggle('active')">
+      <div></div><div></div><div></div>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Welcome to Tlou Sweat Studio</h1>
+  </section>
+ 
+    <h2>Choose Your Subscription</h2>
+
+  <div class="payment-options">
+    <!-- Monthly Option -->
+    <div class="payment-option">
+      <a href="//www.paypal.me/NakampeKgatla273" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/196/196565.png" alt="Pay Monthly">
+      </a>
+      <div class="payment-label">Monthly</div>
+    </div>
+
+    <!-- 6 Months Option -->
+    <div class="payment-option">
+      <a href="//www.paypal.me/NakampeKgatla273" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/196/196578.png" alt="Pay 6 Months">
+      </a>
+      <div class="payment-label">6 Months</div>
+    </div>
+  </div>
+
+<section class="section" id="gallery">
+    <h2>Gallery</h2>
+
+    <div class="gallery">
+     <div class="card">
+  <a href="gallery.html">
+    <img src="images/IMG-20250506-WA0035.jpg" alt="Gallery 1">
+   <b>Endurance Training</p></b>
+  </a>
+</div>
+
+     <div class="card">
+  <a href="gallery.html">
+    <img src="images/IMG-20250506-WA0062.jpg" alt="Gallery 1">
+  <b> <p>Calisthenics</p> </b>
+  </a>
+</div>
+    
+    <div class="card">
+  <a href="gallery.html">
+    <img src="images/IMG-20250506-WA0069.jpg" alt="Gallery 1">
+    <b> <p>Body Weight Trainning</p> </b>
+  </a>
+ 
+    </div>
+  </section>
+  <div class="gallery">
+  <div class="card">
+    <img src="images/Gym (Banner (Portrait)).png" alt="Gallery 1">
+    <p>Workout in Style</p>
+    
+    <!-- PayPal Buy Now Button -->
+    <form action="www.paypal.me/NakampeKgatla273" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="your-paypal-email@example.com">
+      <input type="hidden" name="item_name" value="Workout in Style Poster">
+      <input type="hidden" name="amount" value="350">
+      <input type="hidden" name="currency_code" value="ZAR">
+      <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+    </form>
+  </div>
+
+  <div class="card">
+    <img src="images/Gym (Banner (Portrait)) (1).png" alt="Gallery 2">
+    <p>Elite Studio Equipment</p>
+    
+    <form action="www.paypal.me/NakampeKgatla273" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="your-paypal-email@example.com">
+      <input type="hidden" name="item_name" value="Elite Studio Equipment Print">
+      <input type="hidden" name="amount" value="500">
+      <input type="hidden" name="currency_code" value="ZAR">
+      <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+    </form>
+  </div>
+
+  <div class="card">
+    <img src="images/Gym (Banner (Portrait)) (2).png" alt="Gallery 3">
+    <p>Strength & Endurance</p>
+    
+    <form action="www.paypal.me/NakampeKgatla273" method="post" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="your-paypal-email@example.com">
+      <input type="hidden" name="item_name" value="Strength & Endurance Print">
+      <input type="hidden" name="amount" value="450">
+      <input type="hidden" name="currency_code" value="ZAR">
+      <input type="submit" value="Buy Now with PayPal" class="paypal-button">
+    </form>
+  </div>
+</div>
+     <div class="Banner"><img src="images/Gym (Banner (Landscape)).png", width="100%" alt="Gallery 1"></div>
+       <h2>Join us!</h2>
+<div class="gallery">
+ 
+      <div class="card"><img src="images/IMG_3758.JPG" alt="Gallery 1"><p></p></div>
+      <div class="card"><img src="images/IMG_3768.JPG" alt="Gallery 1"><p></p></div>
+      <div class="card"><img src="images/IMG_3761.JPG" alt="Gallery 3"><p></p></div>
+    </div>
+
+  
+<style>
+  .paypal-button {
+  background-color: #ff0033;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.paypal-button:hover {
+  background-color: #cc002a;
+}
+
+</style>
+ <div class="Banner">
+       <div class="Banner"><img src="images/Professional Fitness Gym Training Programs Banner.png", width="100%" alt="Gallery 1"></div>
+  <footer>
+    <p>&copy; 2025 Tlou Sweat Studio. All rights reserved.</p>
+     <div class="social-icons">
+      <a href="https://www.facebook.com/share/16Zx8QaoHQ/"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.tiktok.com/@tl0u3?_t=ZM-8wGNo7iOa5W&_r=1"><i class="fab fa-tiktok"></i></a>
+      <a href="https://www.tiktok.com/@tl0u3?_t=ZM-8wGNo7iOa5W&_r=1"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/sweat_studio_with_tlou?igsh=MWgzNXU4c2RteTE1Yg=="><i class="fab fa-instagram"></i></a>
+      <a href=" https://www.youtube.com/@vrottappel9250"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
